@@ -2,13 +2,13 @@
 %global puppeteer_version %{__puppeteer_version}
 %global chromium_version %{__chromium_version}
 
-Name:    puppeteer-rpm
+Name:    redborder-webui-node-modules
 Version: %{__version}
 Release: %{__release}%{?dist}
-Summary: Puppeteer RPM Package
+Summary: redborder-webui node modules Package
 
 License: MIT
-URL: https://github.com/redBorder/puppeteer-rpm
+URL: https://github.com/redBorder/redborder-webui-node-modules/
 
 Source0: %{name}-%{version}.tar.gz
 
@@ -17,7 +17,7 @@ Requires: bash
 AutoReqProv: no
 
 %description
-Puppeteer RPM Package with all necessary dependencies for offline installation.
+RPM Package with all necessary dependencies for offline installation.
 
 %prep
 %setup -qn %{name}-%{version}

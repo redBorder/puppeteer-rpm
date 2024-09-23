@@ -1,4 +1,4 @@
-PACKAGE_NAME?=	puppeteer-rpm
+PACKAGE_NAME?=	redborder-webui-node-modules
 
 #VERSION?=	$(shell git describe --tags --long | sed 's/-/_/g')
 VERSION?=	$(shell git describe --abbrev=6 --tags HEAD --always | sed 's/-/_/g')
