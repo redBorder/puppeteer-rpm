@@ -1,8 +1,8 @@
-# Puppeteer RPM
+# redborder-webui-node-modules
 
 ## Overview
 
-Puppeteer RPM
+Install puppeteer node module and chromium driver
 
 ## Authors
 
